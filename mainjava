@@ -1,0 +1,15 @@
+public class Main {
+
+    public static void main(String[] args) {
+
+        Aluno aluno1 = new Aluno("João");
+
+        double[] notas = {8.0, 7.5, 6.0};
+
+        aluno1.setNotas(notas);
+
+        double media = aluno1.calcularMedia();
+
+        aluno1.resultado(media);
+    }
+}
